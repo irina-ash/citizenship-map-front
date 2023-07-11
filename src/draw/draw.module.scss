@@ -1,0 +1,39 @@
+.pin {
+    cursor: pointer;
+
+    & path {
+        fill: #ffffff !important;
+    }
+
+    & circle {
+        fill: #3f51b5; 
+    }
+
+    & text {
+        fill:#ffffff;
+    }
+}
+
+.point {
+    &-blue {
+        fill: #3f51b5;
+    }
+    &-blue-light {
+        fill: #67BAD6;
+    }
+    &-violet {
+        fill: #933FD3;
+    }
+    &-green {
+        fill: #8ED33E;
+    }
+    &-orange {
+        fill: #E25F14;
+    }
+    &-peach {
+        fill: #F59F7B;
+    }
+    &-pink {
+        fill: #F27CCA;
+    }
+}

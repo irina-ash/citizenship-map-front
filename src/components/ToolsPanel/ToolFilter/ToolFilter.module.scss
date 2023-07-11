@@ -1,0 +1,23 @@
+.caption {
+    color: #6b6b6b;
+    text-align: left;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px !important;
+}
+
+.chip {
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+
+    & svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.filter {
+    margin-bottom: 24px !important;
+}

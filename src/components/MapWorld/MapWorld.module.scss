@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  text-align: center;
+  overflow: visible;
+  transform-origin: left top;
+}
+
+.map {
+  z-index: 0;
+  path {
+    cursor: pointer;
+    fill: #6b6b6b;
+  }
+  path:hover {
+    fill-opacity: 80%;
+  }
+  .crtCountry {
+      fill: #3f51b5;
+  }
+}

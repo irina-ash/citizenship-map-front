@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 8px 24px;
+    background-color: #eaeaea;
+    z-index: 10;
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        color: #3f51b5;
+        width: 120px;
+
+        svg {
+            margin-right: 8px;
+        }
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        color: #6b6b6b;
+        width: 120px;
+
+        svg {
+            margin-left: 8px;
+        }
+    }
+}

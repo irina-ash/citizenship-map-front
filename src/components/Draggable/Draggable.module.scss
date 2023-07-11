@@ -1,0 +1,12 @@
+.parent {
+    height: 400px;
+    position: relative;
+    width: 400px;
+    cursor: move;
+}
+
+.draggable {
+    font-size: 12px;
+    height: 200px;
+    width: 100px;
+}
