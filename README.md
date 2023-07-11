@@ -1,4 +1,14 @@
-## Available Scripts
+## О ПРОЕКТЕ
+
+Проект демонстрирует распложение сотрудников некой компании на карте, а также расположение проектов с возможностью отфильтровать команду разработчиков по продукту и посмотреть карточку каждого сотрудника компании.
+
+Используется общедоступная карта в SVG формате. 
+
+Для работы с картой и позиционированием объектов использована библиотека [d3](https://yarnpkg.com/package/d3)
+
+---
+
+## RUN PROJECT
 
 In the project directory, you can run:
 
@@ -21,7 +31,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
